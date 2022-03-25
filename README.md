@@ -2,7 +2,19 @@
 
 ## GitLab Contribution Graph
 
-Shows an overview of your recent GitLab contributions. It is available in small and medium sizes.
+A widget that shows an overview of your recent GitLab contributions. It is available in small and medium sizes.
+
+### Screenshots
+
+<!-- prettier-ignore-start -->
+
+| Light theme | Dark theme |
+|:-:|:-:|
+| <img src="https://user-images.githubusercontent.com/45701680/160108386-146f1b02-2ba1-44a0-8107-00c1ed328af6.jpg" height="360">| <img src="https://user-images.githubusercontent.com/45701680/160108366-16bf568a-b750-421c-8f61-0073006adfc4.jpg" height="360">|
+
+<!-- prettier-ignore-end -->
+
+GitHub Contribution Graph widget for comparison.
 
 ### Installation
 
@@ -17,7 +29,7 @@ Shows an overview of your recent GitLab contributions. It is available in small 
 
 Your credentials will be stored in Keychain.
 
-- **GitLab URL**: The GitLab server you want to connect to. For instance: `https://GitLab.example.com`.
+- **GitLab URL**: The GitLab server you want to connect to. For instance: `https://gitlab.example.com`.
 - **Personal Access Token**: It is used to authenticate with the GitLab API. For more information, visit [GitLab documentation on creating a personal token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token).
 
 ### Acknowledgments
