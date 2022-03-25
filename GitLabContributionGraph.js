@@ -6,7 +6,7 @@
  * Author:    Shahab Saeeda
  * Created:   25.03.2022
  *
- * Version: 1.0
+ * Version: 1.0.01
  **/
 
 /**
@@ -15,6 +15,11 @@
  * - Personal Access Token: It is used to authenticate with the GitLab API.
  *    For more information, visit https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token.
  */
+
+/**
+ * Repository URL. Safari opens this link when About in main menu is pressed.
+ */
+const REPOSITORY_URL = "https://github.com/c0m1t/scriptable-scripts";
 
 /**
  * Keychain key for GitLab personal access token.
@@ -510,7 +515,7 @@ async function showMainMenu() {
   } else if (index === 3) {
     await showCredentialsRemovalAlret();
   } else if (index === 4) {
-    // TODO: Add about page.
+    Safari.open(REPOSITORY_URL);
   }
 }
 
